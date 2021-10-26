@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Samsung_T5/Dev/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/miguelaguaspena/.gradle/caches/transforms-3/1ca36c0171fa5084e08374a562da075e/transformed/appcompat-1.3.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,40",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,170,254,338,434,536,638,3388",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "165,249,333,429,531,633,727,3472"
+                    }
+                },
+                {
+                    "source": "/Users/miguelaguaspena/.gradle/caches/transforms-3/e0bd9d2999ecace03ed62b8ac8274020/transformed/material-1.4.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1526,1614,1738,1840,1942,2058,2160,2274,2402,2518,2640,2776,2896,3030,3150,3262,3477,3601,3731,3853,3991,4125,4241",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
+                        "endOffsets": "1609,1733,1835,1937,2053,2155,2269,2397,2513,2635,2771,2891,3025,3145,3257,3383,3596,3726,3848,3986,4120,4236,4356"
+                    }
+                },
+                {
+                    "source": "/Volumes/Samsung_T5/Dev/Android/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "891"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "23",
+                        "endColumns": "12",
+                        "endOffsets": "1521"
+                    }
+                }
+            ]
+        }
+    ]
+}

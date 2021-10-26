@@ -1,0 +1,2 @@
+com/sriyank/globotour/BuildConfig.java
+ com.sriyank.globotour.BuildConfig
