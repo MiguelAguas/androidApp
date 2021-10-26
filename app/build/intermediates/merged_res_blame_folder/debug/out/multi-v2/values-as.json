@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Samsung_T5/Dev/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "outputFile": "/Volumes/Samsung_T5/Dev/AndroidApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Users/miguelaguaspena/.gradle/caches/transforms-3/d5751ef407cfcf88c86d16de43439810/transformed/navigation-ui-2.3.5/res/values-as/values-as.xml",

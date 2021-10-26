@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Samsung_T5/Dev/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/Volumes/Samsung_T5/Dev/AndroidApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/miguelaguaspena/.gradle/caches/transforms-3/cf9a0283135cc8f0424614f04bfa2f92/transformed/core-1.6.0/res/values-or/values-or.xml",

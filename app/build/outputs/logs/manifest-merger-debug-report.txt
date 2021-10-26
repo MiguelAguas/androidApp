@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/miguelaguaspena/.gradle/caches/transforms-3/45055d28ad5e43f29c50c4b3f26799a8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/miguelaguaspena/.gradle/caches/transforms-3/a05de9ff0db30d651a3243b4f71e1f1f/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/miguelaguaspena/.gradle/caches/transforms-3/faf90872bd8adcbad51ec119dda8c71f/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -53,25 +53,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/miguelaguaspena/.g
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/b258d71a54d8028f6f067b28327934f7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/0e18da1e8463cf82f3ee1185bdba59a0/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/591c93d23d36863ed6b603f7ed44e191/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:3:5-36
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:1-23:12
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/e0bd9d2999ecace03ed62b8ac8274020/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/e0bd9d2999ecace03ed62b8ac8274020/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/miguelaguaspena/.gradle/caches/transforms-3/6cd38c9b234dd76dd5d2cd3206c86839/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
@@ -83,37 +83,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/migu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/cf9a0283135cc8f0424614f04bfa2f92/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:11:9-47
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:11:9-47
 activity#com.sriyank.globotour.MainActivity
-ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:12:9-20:20
+ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:12:9-20:20
 	android:exported
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/miguelaguaspena/.gradle/caches/transforms-3/45055d28ad5e43f29c50c4b3f26799a8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/miguelaguaspena/.gradle/caches/transforms-3/45055d28ad5e43f29c50c4b3f26799a8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/miguelaguaspena/.gradle/caches/transforms-3/a05de9ff0db30d651a3243b4f71e1f1f/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
@@ -212,13 +212,13 @@ MERGED from [androidx.print:print:1.0.0] /Users/miguelaguaspena/.gradle/caches/t
 MERGED from [androidx.print:print:1.0.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/0e18da1e8463cf82f3ee1185bdba59a0/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/591c93d23d36863ed6b603f7ed44e191/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/miguelaguaspena/.gradle/caches/transforms-3/591c93d23d36863ed6b603f7ed44e191/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/Samsung_T5/Dev/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Samsung_T5/Dev/AndroidApp/app/src/main/AndroidManifest.xml

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Samsung_T5/Dev/Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Volumes/Samsung_T5/Dev/AndroidApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/miguelaguaspena/.gradle/caches/transforms-3/e0bd9d2999ecace03ed62b8ac8274020/transformed/material-1.4.0/res/values-land/values-land.xml",
