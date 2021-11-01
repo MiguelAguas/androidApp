@@ -27,11 +27,20 @@ class CityListFragment : Fragment() {
 
         val cityAdapter = CityAdapter(context, VacationSpots.cityList!!)
 
+        //inicializamos el recyclerView
         val recyclerView = view?.findViewById<RecyclerView>(R.id.city_recycler_view)
+
+        //configuramos el adapter
         recyclerView?.adapter = cityAdapter
+
+        //si el recyclerView nunca camvia su ancho o alto en el tiempo de ejecución
+        //entonces debe establecerlo verdadero
+        // ya que esto incrementará el rendimiento de la app
         recyclerView?.setHasFixedSize(true)
 
+        //ahora tenemos que definir nuestro administrador de diseño(layoutManager)
         val layoutManager = LinearLayoutManager(context)
+        // y configurarlo con en nuestro recyclerView
         layoutManager.orientation = RecyclerView.VERTICAL
         recyclerView?.layoutManager = layoutManager
     }
