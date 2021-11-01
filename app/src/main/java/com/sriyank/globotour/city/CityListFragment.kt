@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.sriyank.globotour.R
@@ -39,7 +40,8 @@ class CityListFragment : Fragment() {
         recyclerView?.setHasFixedSize(true)
 
         //ahora tenemos que definir nuestro administrador de diseño(layoutManager)
-        val layoutManager = LinearLayoutManager(context)
+        // cambiamos al GridLayoutManager
+        val layoutManager = GridLayoutManager(context, 2)
         // y configurarlo con en nuestro recyclerView
         layoutManager.orientation = RecyclerView.VERTICAL
         recyclerView?.layoutManager = layoutManager

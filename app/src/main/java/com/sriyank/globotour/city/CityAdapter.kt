@@ -17,7 +17,7 @@ class CityAdapter(val context: Context, var cityList: ArrayList<City>) : Recycle
 
         Log.i("CityAdapter", "onCreateViewHolder: ViewHolder created")
 
-        val itemView = LayoutInflater.from(context).inflate(R.layout.list_item_city, parent, false)
+        val itemView = LayoutInflater.from(context).inflate(R.layout.grid_item_city, parent, false)
         return CityViewHolder(itemView)
     }
 
