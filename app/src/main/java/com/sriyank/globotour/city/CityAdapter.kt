@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.res.ResourcesCompat
+import androidx.core.os.persistableBundleOf
 import androidx.recyclerview.widget.RecyclerView
 import com.sriyank.globotour.R
 
@@ -17,7 +18,7 @@ class CityAdapter(val context: Context, var cityList: ArrayList<City>) : Recycle
 
         Log.i("CityAdapter", "onCreateViewHolder: ViewHolder created")
 
-        val itemView = LayoutInflater.from(context).inflate(R.layout.grid_item_city, parent, false)
+        val itemView = LayoutInflater.from(context).inflate(R.layout.list_item_city, parent, false)
         return CityViewHolder(itemView)
     }
 
@@ -27,11 +28,13 @@ class CityAdapter(val context: Context, var cityList: ArrayList<City>) : Recycle
 
         val city = cityList[position]
         cityViewHolder.setData(city, position)
+        cityViewHolder.setListeners()
+
     }
 
     override fun getItemCount(): Int = cityList.size
 
-    inner class CityViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class CityViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
         private var currentPosition: Int = -1
         private var currentCity: City?   = null
@@ -59,5 +62,43 @@ class CityAdapter(val context: Context, var cityList: ArrayList<City>) : Recycle
             this.currentPosition = position
             this.currentCity = city
         }
+
+        fun setListeners() {
+            imvDelete.setOnClickListener(this@CityViewHolder)
+            imvFavorite.setOnClickListener(this@CityViewHolder)
+        }
+
+        override fun onClick(v: View?) {
+
+            when (v!!.id) {
+                R.id.imv_delete -> deleteItem()
+                R.id.imv_favorite -> addFavorite()
+            }
+        }
+
+        fun deleteItem() {
+            cityList.removeAt(currentPosition)
+            notifyItemRemoved(currentPosition)
+            notifyItemRangeChanged(currentPosition, cityList.size)
+
+            VacationSpots.favoriteCityList.remove(currentCity!!)
+        }
+
+        fun addFavorite() {
+            currentCity?.isFavorite = !(currentCity?.isFavorite!!)
+
+            if (currentCity?.isFavorite!!) {
+                imvFavorite.setImageDrawable(icFavoriteFilledImage)
+                VacationSpots.favoriteCityList.add(currentCity!!)
+
+            } else {
+                imvFavorite.setImageDrawable(icFavoriteFilledImage)
+                VacationSpots.favoriteCityList.remove(currentCity!!)
+            }
+        }
+
+
+
     }
+
 }

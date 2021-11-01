@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.sriyank.globotour.R
 
 
@@ -41,9 +42,14 @@ class CityListFragment : Fragment() {
 
         //ahora tenemos que definir nuestro administrador de diseño(layoutManager)
         // cambiamos al GridLayoutManager
-        val layoutManager = GridLayoutManager(context, 2)
+        //val layoutManager = GridLayoutManager(context, 2)
+        //val layoutManager = StaggeredGridLayoutManager( 2, RecyclerView.VERTICAL)
         // y configurarlo con en nuestro recyclerView
+        //layoutManager.orientation = RecyclerView.VERTICAL
+        val layoutManager = LinearLayoutManager(context)
         layoutManager.orientation = RecyclerView.VERTICAL
         recyclerView?.layoutManager = layoutManager
+
+
     }
 }
